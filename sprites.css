@@ -1,0 +1,130 @@
+.icon-chat, .icon-clip, .icon-colleague, .icon-command, .icon-login, .icon-mail, .icon-mark-green, .icon-mark-white, .icon-message, .icon-more, .icon-phonet, .icon-plans, .icon-point, .icon-question, .icon-remember, .icon-search, .icon-star-gray, .icon-star-yellow, .icon-students, .icon-tests, .icon-busket{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-chat{
+	background-position: -143.9808349609375px -99.98101806640625px ;
+	width: 38px;
+	height: 21px;
+}
+
+.icon-clip{
+	background-position: -148.94512939453125px -138.959228515625px ;
+	width: 14px;
+	height: 15px;
+}
+
+.icon-colleague{
+	background-position: -97px -91px ;
+	width: 34px;
+	height: 32px;
+}
+
+.icon-command{
+	background-position: -143px -48px ;
+	width: 41px;
+	height: 29px;
+}
+
+.icon-login{
+	background-position: -173.98077392578125px -131.988525390625px ;
+	width: 13px;
+	height: 19px;
+}
+
+.icon-mail{
+	background-position: -124.95343017578125px -142.9710693359375px ;
+	width: 14px;
+	height: 9px;
+}
+
+.icon-mark-green{
+	background-position: -73.96697998046875px -141.9769287109375px ;
+	width: 16px;
+	height: 12px;
+}
+
+.icon-mark-white{
+	background-position: -97.96173095703125px -140.9769287109375px ;
+	width: 16px;
+	height: 12px;
+}
+
+.icon-message{
+	background-position: -44px -105px ;
+	width: 33px;
+	height: 15px;
+}
+
+.icon-more{
+	background-position: -100px -51px ;
+	width: 28px;
+	height: 28px;
+}
+
+.icon-phone{
+	background-position: -54.95758056640625px -140.95343017578125px ;
+	width: 12px;
+	height: 12px;
+}
+
+.icon-plans{
+	background-position: -48.99493408203125px -48.97802734375px ;
+	width: 33px;
+	height: 29px;
+}
+
+.icon-point{
+	background-position: -31.9892578125px -137.959228515625px ;
+	width: 14px;
+	height: 16px;
+}
+
+.icon-question{
+	background-position: -2px -51px ;
+	width: 29px;
+	height: 29px;
+}
+
+.icon-remember{
+	background-position: -147px -4px ;
+	width: 33px;
+	height: 27px;
+}
+
+.icon-search{
+	background-position: -6.96173095703125px -137.9951171875px ;
+	width: 13px;
+	height: 13px;
+}
+
+.icon-star-gray{
+	background-position: -6.98516845703125px -113.99154663085938px ;
+	width: 15px;
+	height: 14px;
+}
+
+.icon-star-yellow{
+	background-position: -3.98516845703125px -95.99398803710938px ;
+	width: 15px;
+	height: 14px;
+}
+
+.icon-students{
+	background-position: -96px -1px ;
+	width: 32px;
+	height: 32px;
+}
+
+.icon-tests{
+	background-position: -47px -5px ;
+	width: 34px;
+	height: 25px;
+}
+
+.icon-busket{
+	background-position: 0 0;
+	width: 34px;
+	height: 31px;
+}
+

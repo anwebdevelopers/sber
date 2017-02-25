@@ -1,0 +1,124 @@
+@import "bourbon";
+@import "components/vars.scss";
+
+
+@font-face {
+	font-family: 'Fedra Sans Pro';
+	src: url('../fonts/subset-FedraSansPro-BoldItalic.eot');
+	src: url('../fonts/subset-FedraSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-FedraSansPro-BoldItalic.woff2') format('woff2'),
+		url('../fonts/subset-FedraSansPro-BoldItalic.woff') format('woff'),
+		url('../fonts/subset-FedraSansPro-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fedra Sans Pro';
+	src: url('../fonts/subset-FedraSansPro-Bold.eot');
+	src: url('../fonts/subset-FedraSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-FedraSansPro-Bold.woff2') format('woff2'),
+		url('../fonts/subset-FedraSansPro-Bold.woff') format('woff'),
+		url('../fonts/subset-FedraSansPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fedra Sans Pro';
+	src: url('../fonts/subset-FedraSansPro-MediumItalic.eot');
+	src: url('../fonts/subset-FedraSansPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-FedraSansPro-MediumItalic.woff2') format('woff2'),
+		url('../fonts/subset-FedraSansPro-MediumItalic.woff') format('woff'),
+		url('../fonts/subset-FedraSansPro-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fedra Sans Pro';
+	src: url('../fonts/subset-FedraSansPro-Medium.eot');
+	src: url('../fonts/subset-FedraSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-FedraSansPro-Medium.woff2') format('woff2'),
+		url('../fonts/subset-FedraSansPro-Medium.woff') format('woff'),
+		url('../fonts/subset-FedraSansPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	min-width: 1200px;
+	position: relative;
+	line-height: 1;
+	font-family: 'Fedra Sans Pro', sans-serif;
+	color: #111;
+	background-color: #fff;
+	background-image: url(../img/body-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container {
+	max-width: 1200px;
+	
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.hidden {
+	display: none;
+}
+a {
+	outline: none !important;
+}
+
+
+//Custom Styles Here
+@import "components/header.scss";
+@import "components/main-left-right.scss";
+@import "components/main-center.scss";
+@import "components/question.scss";
+@import "components/command.scss";
+@import "components/resume.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+//@import "components/media.scss";
+
+//Load Libs SASS
+//@import "html/libs/animate/animate.sass";
+//@import "html/libs/superfish/dist/css/superfish";
+//@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+//@import "html/libs/magnific-popup/dist/magnific-popup";

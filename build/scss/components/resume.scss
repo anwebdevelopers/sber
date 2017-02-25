@@ -1,0 +1,208 @@
+.main__resume-list {
+	position: relative;
+	background-color: #fff;
+	padding: 0 10px 10px 10px;
+}
+.main___resume-list-title {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 4px 0;
+	margin: 0 0 35px 0;
+	border-bottom: 4px solid $main-color;
+	h3 {
+		font-size: 16px;
+		margin: 0;
+	}
+	&:after {
+		content: '?';
+		position: absolute;
+		right: -15px;
+		top: 0;
+		color: $main-color;
+		font-weight: 600;
+	}
+}
+.main___resume-list-button {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	a {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		padding: 12px 18px 12px 18px;
+		background-color: #00be00;
+		text-decoration: none;
+		color: #fff;
+		background-image: linear-gradient(to bottom, #00be00, #009500);
+		outline: none;
+		box-shadow: none;
+		border: none;
+		border-radius: 3px;
+		&:hover,&:active, &:focus {
+			color: $accent-color;
+		}
+	}
+}
+
+.main___resume-list-item {
+	display: block;
+	outline: none;
+	text-decoration: none;
+	margin: 0 0 20px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 2px solid #ccc;
+}
+.main___resume-list-item-title {
+	display: block;
+	font-weight: 600;
+	line-height: 1.4;
+	font-size: 16px;
+	color: $main-color;
+
+}
+
+.main___resume-list-item-date {
+	padding: 10px 0 0 0;
+	color: #000;
+}
+
+.resume {
+	position: relative;
+	padding: 0 10px;
+	background-color: #fff;
+}
+.resume__title {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 4px 0;
+	margin: 0 0 35px 0;
+	border-bottom: 4px solid $main-color;
+	&:after {
+		content: '?';
+		position: absolute;
+		right: -15px;
+		top: 0;
+		color: $main-color;
+		font-weight: 600;
+	}
+	h3 {
+		font-size: 16px;
+		margin: 0;
+	}
+}
+.resume__form {
+	@extend .clearfix;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #eee;
+	
+	
+}
+.resume__form-left-col {
+	float: left;
+	width: 48%;
+	margin: 0 0 20px 0;
+}
+.resume__form-right-col {
+	float: right;
+	width: 48%;
+	margin: 0 0 20px 0;
+}
+.resume__form-city,
+.resume__form-position,
+.resume__form-salary,
+.resume__form-subdivision,
+.resume__form-crossing,
+.resume__form-age,
+.resume__form-lang,
+.resume__form-lang-level,
+.resume__form-education,
+.resume__form-rate,
+.resume__form-specialty,
+.resume__form-qualities {
+	display: block;
+	margin: 0 0 20px 0;
+	span {
+		padding: 0 0 10px 20px;
+		display: block;
+		font-weight: 600;
+	}
+	select {
+		display: block;
+		width: 100%;
+		padding: 5px 0 5px 20px;
+		background-color: #eee;
+		border: none;
+		outline: none;
+		text-indent: 3px;
+		option {
+			padding: 5px 0;
+		}
+	}
+	textarea {
+		width: 90%;
+		padding: 10px;
+		resize: none;
+		outline: none;
+		box-shadow: none;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		&:focus {
+			border-color: $accent-color;
+		}
+	}
+}
+
+.resume__form-btn {
+	clear: both;
+	
+}
+
+.resume__form-submit {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 10px;
+		input[type="submit"] {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			padding: 12px 20px;
+			background-color: #00be00;
+			text-decoration: none;
+			color: #fff;
+			background-image: linear-gradient(to bottom, #00be00, #009500);
+			outline: none;
+			box-shadow: none;
+			border: none;
+			border-radius: 3px;
+			&:hover,&:active, &:focus {
+				color: $accent-color;
+			}
+		}
+		
+	}
+.resume__form-reset {
+	position: relative;
+	float: right;
+	color: $accent-color;
+	&:before {
+		content: 'X';
+		position: relative;
+		color: $accent-color;
+		font-weight: 600;
+
+	}
+	input {
+		border: none;
+		background-color: transparent;
+		outline: none;
+		color: $accent-color;
+		text-decoration: underline;
+		&:hover,&:active, &:focus {
+			text-decoration: none;;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+@import "bourbon";
+
+@font-face {
+    font-family: 'pf_beausans_proregular';
+    src: url('../fonts/pfbeausanspro-reg-webfont.eot');
+    src: url('../fonts/pfbeausanspro-reg-webfont.eot') format('embedded-opentype'),
+         url('../fonts/pfbeausanspro-reg-webfont.woff2') format('woff2'),
+         url('../fonts/pfbeausanspro-reg-webfont.woff') format('woff'),
+         url('../fonts/pfbeausanspro-reg-webfont.ttf') format('truetype'),
+         url('../fonts/pfbeausanspro-reg-webfont.svg#pfbeausanspro-reg-webfont') format('svg');
+}
